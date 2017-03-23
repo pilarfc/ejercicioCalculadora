@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body align = center>
+    <h1> Calculadora </h1>
+
+    <div class="calculadora">
+    <name="calculadora" id="calculadora">
+
+  <form name = "formulario">  <!--Crea el formulario-->
+
+    <div type = "container">
+      <input type = "text" value = "" id = "textoPantalla" name = "resultado"> <br>
+
+    <div>
+    <input type="button" value="1" onclick = "mostrarNumero(value)" />
+    <input type="button" value="2" onclick = "mostrarNumero(value)" />
+    <input type="button" value="3" onclick = "mostrarNumero(value)" />
+    <input type="button" value="+" onclick = "mostrarNumero(value)" />
+  </div> <br>
+
+    <div>
+    <input type="button" value="4"  onclick = "mostrarNumero(value)" />
+    <input type="button" value="5"  onclick = "mostrarNumero(value)" />
+    <input type="button" value="6"  onclick = "mostrarNumero(value)" />
+    <input type="button" value="-"  onclick = "mostrarNumero(value)" />
+  </div> <br>
+    <div>
+    <input type="button" value="7"  onclick = "mostrarNumero(value)" />
+    <input type="button" value="8"  onclick = "mostrarNumero(value)" />
+    <input type="button" value="9"  onclick = "mostrarNumero(value)" />
+    <input type="button" value="*"  onclick = "mostrarNumero(value)" />
+  </div> <br>
+
+    <div>
+    <input type="button" value="."  onclick = "mostrarNumero(value)"/>
+    <input type="button" value="0"  onclick = "mostrarNumero(value)" />
+    <input type="button" value="="  onclick = "signoIgual(value)" />
+    <input type="button" value="/"  onclick = "mostrarNumero(value)"/>
+  </div> <br>
+</div>
+
+<script src = "calculadora.js"> </script>
+  </body>
+</html>
